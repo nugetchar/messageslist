@@ -20,7 +20,7 @@ main {
   background: #FDEBF7;
   width: 90%;
   border: 1px solid black;
-  height: 80vh;
+  height: 80%;
   overflow-y: auto;
   display: flex;
   flex-wrap: wrap;
