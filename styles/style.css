@@ -8,8 +8,6 @@ main {
 .messages-list {
   background: #FDEBF7;
   border: 1px solid black;
-  height: 80vh;
-  width: 90%;
   overflow-y: auto;
 }
 
