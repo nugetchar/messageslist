@@ -39,7 +39,6 @@ main {
     position: absolute;
     top: 8px;
     right: 8px;
-    display: flex;
     width: fit-content;
     height: fit-content;
     background-color: #FDCEB9;
