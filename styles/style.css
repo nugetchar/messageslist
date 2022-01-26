@@ -1,43 +1,51 @@
 
+/* Le main */
 main {
-    background-color: #FBCAFF;
+  background-color: #FBCAFF;
 }
 
+/* Le conteneur flex */
 .container {
-    height: 80vh;
-    width: 100%;
+  height: 80vh;
+  width: 100%;
 }
 
+/* La liste de messages */
 .messages-list {
-background: #FDEBF7;
+  background: #FDEBF7;
   border: 1px solid black;
   height: 100%;
   overflow-y: auto;
-  }
-
-.message {
-  box-shadow: 0px 5px 8px 0px #000000;
-  }
-
-.message__close-button {
-    width: fit-content;
-    height: fit-content;
-    background-color: #FDCEB9;
-    border: none;
-    color: #000000;
-    cursor: pointer;
 }
 
+/* L'apparence d'un message */
+.message {
+  box-shadow: 0px 5px 8px 0px #000000;
+}
+
+/* L'apparence du bouton pour fermer une notice */
+.message__close-button {
+  width: fit-content;
+  height: fit-content;
+  background-color: #FDCEB9;
+  border: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+/* L'apparence d'un message de type "notice" */
 .notice {
   background-color: #FDCEB9;
   box-shadow: none;
 }
 
+/* L'apparence du nom d'utilisateur dans un message */
 .message__user {
   font-size: 1.1rem;
   font-weight: bolder;
 }
 
+/* L'apparence du texte du message */
 .message__text {
   font-size: 1.05rem;
 }
