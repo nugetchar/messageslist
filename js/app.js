@@ -56,7 +56,7 @@ function pickRandomUser() {
   const users = [
     "Agnès T.",
     "Amaury T.",
-    "Anthony L.",
+    "Antony L.",
     "Benoit O.",
     "Ethan H.",
     "Joshua J.",
